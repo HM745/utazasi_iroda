@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(utazasi_iroda/kepek/becs.jpg)
+}
+header {
+    font-size: 50px;
+    text-align: center;
+    background-color: lightgray;
+    color: beige;
+    font-weight: bold;
+
+}
+nav ul{
+    display: grid;
+    background-color: gray;
+    grid-template-columns: 1fr 1fr 1fr ;
+    list-style-type: none;
+    padding: 17px;
+    margin: 0px;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: aqua;
+}
+aside {
+    border-radius: 10px;
+    background-color: white;
+    width: 13%;
+}
+aside img {
+    border-radius: 10px;
+}
