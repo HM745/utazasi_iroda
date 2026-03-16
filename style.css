@@ -5,12 +5,16 @@ body {
     background-image: url(utazasi_iroda/kepek/becs.jpg)
 }
 header {
+    grid-area: h;
     font-size: 50px;
     text-align: center;
     background-color: lightgray;
     color: beige;
     font-weight: bold;
 
+}
+nav {
+    grid-area: n;
 }
 nav ul{
     display: grid;
@@ -29,10 +33,42 @@ nav a {
     color: aqua;
 }
 aside {
+    margin-top: 30px;
+    grid-area: as;
     border-radius: 10px;
     background-color: white;
-    width: 13%;
+    width: 63%;
+    margin-left:20px ;
+    height: 400px;
 }
 aside img {
     border-radius: 10px;
+}
+article {
+    margin-top: 30px;
+    grid-area: ar;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 98%;
+}
+main {
+    display: grid;
+    grid-template-columns: 180px 3fr ;
+    grid-template-areas: "h h"
+    "n n"
+    "as ar"
+    
+}
+article img {
+    border-radius: 15px;
+    width: 96%;
+    margin-left: 25px;
+    height: 300px;
+}
+article p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+article h1 {
+    margin-left: 10px;
 }
